@@ -8,3 +8,5 @@
 
 ### Fitur yang sudah ada saat ini
 - CRUD Data User
+- CRUD Data Kategori
+- Login & Logout
