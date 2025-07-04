@@ -32,7 +32,7 @@
       <!-- /.control-sidebar -->
     </div>
     <!-- ./wrapper -->
-    
+    @include('layouts.logout')
     {{-- web script --}}
     @include('layouts.script')
   </body>

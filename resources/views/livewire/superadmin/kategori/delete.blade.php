@@ -8,24 +8,11 @@
             </div>
             <div class="modal-body"> 
                 Apakah anda yakin ingin menghapus data ini? <br>
-                <label>Nama : {{ $name }}</label> <br>
-                <label>Email : {{ $email }}</label> <br>
-                <label>
-                    Role : 
-                    @if ($role == 'Super Admin')
-                        <span class="badge badge-success">
-                            {{ $role }}
-                        </span>
-                    @else
-                        <span class="badge badge-info">
-                            {{ $role }}
-                        </span>
-                    @endif
-                </label> <br>
+                <label>Nama Kategori : {{ $name_kategori }}</label>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cancel</button>
-                <button wire:click="destroy({{ $user_id }})" type="button" class="btn btn-danger btn-sm">
+                <button wire:click="destroy({{ $kategori_id }})" type="button" class="btn btn-danger btn-sm">
                     <i class="fas fa-trash mr-1"></i>
                     delete
                 </button>

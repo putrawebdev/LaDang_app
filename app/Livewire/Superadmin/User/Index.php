@@ -87,6 +87,8 @@ class Index extends Component
         $user = User::findOrFail($id);
         $this->user_id = $id;
         $this->name = $user->name;
+        $this->email = $user->email;
+        $this->role = $user->role;
     }
 
     public function destroy($id){
