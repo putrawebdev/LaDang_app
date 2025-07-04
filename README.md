@@ -1,9 +1,9 @@
 # Webseite Kelola Gudang
-# On Progress.... 20%
+# On Progress.... 40%
 
 ### Tech
-- Laravel
-- Livewire
+- Laravel 12
+- Livewire 3
 - Bootstrap
 
 ### Fitur yang sudah ada saat ini
