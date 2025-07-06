@@ -16,7 +16,7 @@
                 (object) [
                     'title' => 'Data Kategori',
                     'path' => route('superadmin.kategori'),
-                    'pathinfo' => 'aktif-user',
+                    'pathinfo' => 'aktif-kategori',
                     'icon' => 'fas fa-list'
                 ],
                 (object) [

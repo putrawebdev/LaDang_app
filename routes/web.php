@@ -12,7 +12,7 @@ Route::middleware(['auth'])->group(function () {
     Route::view('/dashboard', 'dashboard')->name('dashboard');
     // Route untuk Super Admin
     Route::middleware(['superadmin'])->group(function () {
-        Route::view('superadmin/user', 'superadmin.user.index')->name('superadmin.user')->middleware('superadmin');
+        Route::view('superadmin/user', 'superadmin.user.index')->name('superadmin.user');
         Route::view('superadmin/kategori', 'superadmin.kategori.index')->name('superadmin.kategori');
     });
     
