@@ -14,7 +14,13 @@
 - CRUD Data User
 - Search Data User
 - Pagination Data User
-- Page Kelola Kategori
+- Page Kelola Kategori :
 - CRUD Data Kategori
+- Search Data Kategori
+- Pagination Data Kategori
 - Relasi Data Kategori dengan Data Barang
-- CRUD Data Barang
+- Page Kelola Barang :
+- CRUD Data Kategori
+- Search Data Kategori
+- Pagination Data Kategori
+- Relasi Data Kategori dengan Data Barang
