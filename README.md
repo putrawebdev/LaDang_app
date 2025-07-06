@@ -1,5 +1,5 @@
 # Webseite Kelola Gudang
-# On Progress.... 40%
+# On Progress.... 60%
 
 ### Tech
 - Laravel 12
@@ -7,7 +7,14 @@
 - Bootstrap
 
 ### Fitur yang sudah ada saat ini
-- CRUD Data User
-- CRUD Data Kategori
 - Login & Logout
-- pembatasan akses fitur untuk admin
+- Dashboard
+- Pembatasan akses fitur untuk admin
+- Page Kelola User :
+- CRUD Data User
+- Search Data User
+- Pagination Data User
+- Page Kelola Kategori
+- CRUD Data Kategori
+- Relasi Data Kategori dengan Data Barang
+- CRUD Data Barang
