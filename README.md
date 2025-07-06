@@ -10,6 +10,7 @@
 #### 1. Login & Logout
 #### 2. Dashboard
 #### 3. Pembatasan akses fitur untuk admin
+- Role Admin hanya bisa mengakses Page Dashboard & Page Kelola Barang
 
 #### 4. Page Kelola User :
 - CRUD Data User
