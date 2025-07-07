@@ -1,6 +1,6 @@
 # Webseite Kelola Gudang
 # On Progress.... 70%
-# Progress
+# Progress = Styling
 
 ### Tech
 - Laravel 12
