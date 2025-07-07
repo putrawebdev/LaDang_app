@@ -1,0 +1,15 @@
+.login-page 
+{
+    background-image: url('./login.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.logo-login {
+    text-shadow: 2px 2px 5px #dfdfdf;
+}
+.logo-login-div {
+    text-align: center;
+    
+}
