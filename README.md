@@ -1,5 +1,6 @@
 # Webseite Kelola Gudang
-# On Progress.... 60%
+# On Progress.... 70%
+# Progress
 
 ### Tech
 - Laravel 12
