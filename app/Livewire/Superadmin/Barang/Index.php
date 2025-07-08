@@ -36,8 +36,8 @@ class Index extends Component
     }
     public function store(){
         $this-> validate([
-            'name_barang' => 'required',
-            'harga' => 'required',
+            'name_barang' => 'nullable',
+            'harga' => 'nullable',
             'stok_barang' => 'required',
             'kategori_id' => 'required|exists:kategoris,id',
         ]);
@@ -61,10 +61,10 @@ class Index extends Component
     public function update($id){
         $barang = Barang::findOrFail($id);
         $this-> validate([
-            'name_barang' => 'required|unique:barangs, name_barang'.$id,
-            'harga' => 'required',
-            'stok_barang' => 'required',
-            'kategori_id' => 'required|exists:kategoris,id',
+            'name_barang' => 'nullable',
+            'harga' => 'nullable',
+            'stok_barang' => 'nullable',
+            'kategori_id' => 'nullable',
         ]);
         $barang->name_barang = $this->name_barang;
         $barang->harga = $this->harga;

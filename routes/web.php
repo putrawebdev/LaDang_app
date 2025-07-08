@@ -2,9 +2,12 @@
 
 use App\Livewire\Auth\Login;
 use App\Http\Controllers\AuthController;
+use App\Livewire\LandingPage;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', Login::class)->name('login')->middleware('guest');
+
+Route::get('/', LandingPage::class)->name('welcome');
+Route::get('/login', Login::class)->name('login')->middleware('guest');
 Route::post('/logout', AuthController::class)->name('logout');
 
 Route::middleware(['auth'])->group(function () {
@@ -21,4 +24,5 @@ Route::middleware(['auth'])->group(function () {
     
     // Tidak perlu route POST untuk logout karena menggunakan Livewire
 });
+
 
