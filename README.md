@@ -7,6 +7,7 @@
 - Bootstrap
 
 ### Fitur yang sudah ada saat ini
+#### A. Welcome Page
 #### 1. Login & Logout
 #### 2. Dashboard
 #### 3. Pembatasan akses fitur untuk admin
