@@ -1,14 +1,11 @@
 # Webseite Kelola Gudang
 # On Progress.... 80%
 
-### Bahasa
-- Php
-- Javascript
-- 
+
 ### Tech
 - Laravel 12
 - Livewire 3
-- Bootstrap
+- Bootstrap 4
 - laravel excel
 - sweetalert
 
