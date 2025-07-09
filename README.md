@@ -1,10 +1,16 @@
 # Webseite Kelola Gudang
 # On Progress.... 80%
 
+### Bahasa
+- Php
+- Javascript
+- 
 ### Tech
 - Laravel 12
 - Livewire 3
 - Bootstrap
+- laravel excel
+- sweetalert
 
 ### Fitur yang sudah ada saat ini
 #### A. Welcome Page
