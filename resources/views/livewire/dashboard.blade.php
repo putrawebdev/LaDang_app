@@ -71,44 +71,6 @@
                 </div>
                 <!-- /.row -->
             
-                <!-- Main row -->
-                <div class="row">
-                    <section class="col-lg-7 connectedSortable">
-                        <!-- Custom tabs (Charts with tabs)-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="card-title">
-                                    <i class="fas fa-chart-line mr-1"></i>
-                                    Penambahan Barang (30 Hari Terakhir)
-                                </h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="chart">
-                                    <canvas id="barangChart" height="250"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.card -->
-                    </section>
-            
-                    <section class="col-lg-5 connectedSortable">
-                        <!-- Pie chart -->
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="card-title">
-                                    <i class="fas fa-chart-pie mr-1"></i>
-                                    Distribusi Kategori
-                                </h3>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="kategoriChart" height="250"></canvas>
-                            </div>
-                        </div>
-                        <!-- /.card -->
-                    </section>
-                </div>
-                <!-- /.row -->
-            
                 <!-- Recent Activities -->
                 <div class="row">
                     <div class="col-12">

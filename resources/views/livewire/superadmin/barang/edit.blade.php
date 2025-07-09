@@ -13,7 +13,7 @@
             <div class="form-group">
                 <label for="name_barang">Nama Barang</label>
                 <input wire:model="name_barang" type="text" class="form-control
-                @error('name_barang') is-invalid @enderror" id="name_barang" name="name_barang" placeholder="Masukkan nama barang">
+                @error('name_barang') is-invalid @enderror" id="name_barang" name="name_barang">
                 @error('name_barang')
                     <small class="text-danger">
                         {{ $message }}

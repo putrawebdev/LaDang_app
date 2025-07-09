@@ -15,17 +15,19 @@ class Index extends Component
     public $paginate = '10';
     public $search = '';
     public $title = 'Data Barang';
-    public $name_barang;
-    public $harga;
-    public $stok_barang;
-    public $kategori_id;
-    public $barang_id;
+    public $name_barang, $stok_barang, $harga, $barang_id, $kategori_id;
 
     // Public Function
     public function render()
     {
         $data = array(
-            'barang' => Barang::with('kategori')->get(),
+            'barang' => Barang::select('barangs.*')
+                    ->join('kategoris', 'barangs.kategori_id', '=', 'kategoris.id')
+                    ->orderBy('kategoris.name_kategori', 'asc') // atau 'desc'
+                    ->with('kategori') // tetap eager load relasi
+                    ->where('name_barang', 'like', '%'.$this->search.'%')
+                    ->orWhere('kategori_id', 'like', '%'.$this->search.'%')
+                    ->paginate($this->paginate),
             'kategori' => Kategori::all(),
         );
         return view('livewire.superadmin.barang.index', $data);
@@ -60,11 +62,12 @@ class Index extends Component
     }
     public function update($id){
         $barang = Barang::findOrFail($id);
+        $this->barang_id = $id;
         $this-> validate([
             'name_barang' => 'nullable',
             'harga' => 'nullable',
-            'stok_barang' => 'nullable',
-            'kategori_id' => 'nullable',
+            'stok_barang' => 'required',
+            'kategori_id' => 'required|exists:kategoris,id',
         ]);
         $barang->name_barang = $this->name_barang;
         $barang->harga = $this->harga;

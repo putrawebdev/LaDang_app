@@ -41,10 +41,7 @@
                     Cetak
                 </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item text-success" href="#">
-                    <i class="fas fa-file-excel mr-1"></i>
-                    Excel
-                    </a>
+                    @livewire('export-users')
                     <a class="dropdown-item text-success" href="#">
                     <i class="fas fa-file-pdf mr-1"></i>
                     PDF
