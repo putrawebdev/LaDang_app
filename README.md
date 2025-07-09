@@ -32,4 +32,5 @@
 
 #### 7. Expot Data Ke File Excel .xlsx
 - export data user
+- export data kategori
 - export data barang
