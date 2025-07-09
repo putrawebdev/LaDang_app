@@ -1,5 +1,5 @@
 # Webseite Kelola Gudang
-# On Progress.... 70%
+# On Progress.... 80%
 
 ### Tech
 - Laravel 12
@@ -29,3 +29,5 @@
 - Search Data Barang
 - Pagination Data Barang
 - Relasi Data Kategori dengan Data Barang
+
+#### 7. Expot Data Ke File Excel .xlsx
