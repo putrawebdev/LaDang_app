@@ -31,3 +31,5 @@
 - Relasi Data Kategori dengan Data Barang
 
 #### 7. Expot Data Ke File Excel .xlsx
+- export data user
+- export data barang
