@@ -41,3 +41,8 @@
 - export data user
 - export data kategori
 - export data barang
+
+#### 7. Expot Data Ke File PDF .pdf
+- export data user
+- export data kategori
+- export data barang
