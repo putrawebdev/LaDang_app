@@ -1,13 +1,17 @@
 # Webseite Kelola Gudang
-# On Progress.... 80%
+# On Progress.... 95%
 
 
 ### Tech
 - Laravel 12
 - Livewire 3
 - Bootstrap 4
-- laravel excel
-- sweetalert
+- Tailwind
+
+### Library
+- Laravel Excel
+- Laravel dompdf
+- Sweetalert
 
 ### Fitur yang sudah ada saat ini
 #### A. Welcome Page
