@@ -1,10 +1,13 @@
 # Webseite Kelola Gudang
-# On Progress.... 70%
+# On Progress.... 80%
+
 
 ### Tech
 - Laravel 12
 - Livewire 3
-- Bootstrap
+- Bootstrap 4
+- laravel excel
+- sweetalert
 
 ### Fitur yang sudah ada saat ini
 #### A. Welcome Page
@@ -29,3 +32,8 @@
 - Search Data Barang
 - Pagination Data Barang
 - Relasi Data Kategori dengan Data Barang
+
+#### 7. Expot Data Ke File Excel .xlsx
+- export data user
+- export data kategori
+- export data barang
