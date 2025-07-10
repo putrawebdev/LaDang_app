@@ -37,6 +37,7 @@
                 <!-- Menu Footer-->
                 <li class="user-footer">
                 <a href="#" class="btn btn-sm btn-danger btn-flat float-right" data-toggle="modal" data-target="#logoutModal">Log out</a>
+                <a href="{{ route('welcome') }}" class="btn btn-sm btn-primary btn-flat float-left">Home</a>
                 </li>
             </ul>
             </li>
