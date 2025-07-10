@@ -5,6 +5,14 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
+                @if($isSortedByStock)
+                    <div class="alert alert-info mb-3">
+                        <i class="fas fa-info-circle"></i> Menampilkan stok terendah ke tertinggi
+                        <a href="{{ route('superadmin.barang') }}" class="float-right">
+                            <i class="fas fa-times"></i> Reset sorting
+                        </a>
+                    </div>
+                @endif
                 <h1>{{ $title }}</h1>
             </div>
             <div class="col-sm-6">
@@ -41,10 +49,7 @@
                 </button>
                 <div class="dropdown-menu">
                     @livewire('export-barang')
-                    <a class="dropdown-item text-success" href="#">
-                    <i class="fas fa-file-pdf mr-1"></i>
-                    PDF
-                    </a>
+                    @livewire('pdf.barangpdf')
                 </div>
                 </div>
             </div>
@@ -83,7 +88,7 @@
                                 <tr>
                                     <td>{{ $loop->iteration }}</td>
                                     <td>{{ $item->name_barang }}</td>
-                                    <td>{{ $item->harga }}</td>
+                                    <td>Rp {{ number_format($item->harga, 0, ',', '.') }}</td>
                                     <td>{{ $item->stok_barang }}</td>
                                     <td>{{ $item->kategori->name_kategori }}</td>
                                     <td>

@@ -42,10 +42,7 @@
                 </button>
                 <div class="dropdown-menu">
                     @livewire('export-users')
-                    <a class="dropdown-item text-success" href="#">
-                    <i class="fas fa-file-pdf mr-1"></i>
-                    PDF
-                    </a>
+                    @livewire('pdf.userpdf')
                 </div>
                 </div>
             </div>

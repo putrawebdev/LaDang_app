@@ -46,7 +46,7 @@
                             <div class="icon">
                                 <i class="fas fa-exclamation-triangle"></i>
                             </div>
-                            <a href="#" class="small-box-footer">
+                            <a href="{{ route('superadmin.barang', ['sort' => 'stock_asc']) }}" class="small-box-footer">
                                 More info <i class="fas fa-arrow-circle-right"></i>
                             </a>
                         </div>
@@ -72,40 +72,6 @@
                 <!-- /.row -->
             
                 <!-- Recent Activities -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="card-title">
-                                    <i class="fas fa-history mr-1"></i>
-                                    Aktivitas Terakhir
-                                </h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="timeline">
-                                    @foreach($recentActivities as $activity)
-                                    <div class="time-label">
-                                        <span class="bg-{{ $loop->first ? 'red' : 'info' }}">{{ $activity['time'] }}</span>
-                                    </div>
-                                    <div>
-                                        <i class="{{ $activity['icon'] }} bg-blue"></i>
-                                        <div class="timeline-item">
-                                            <span class="time"><i class="fas fa-clock"></i> {{ $activity['time'] }}</span>
-                                            <h3 class="timeline-header">{{ $activity['title'] }}</h3>
-                                            <div class="timeline-body">
-                                                {{ $activity['description'] }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    @endforeach
-                                    <div>
-                                        <i class="fas fa-clock bg-gray"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 @push('scripts')
                 <script src="{{ asset('adminlte/plugins/chart.js/Chart.min.js') }}"></script>
                 <script>
