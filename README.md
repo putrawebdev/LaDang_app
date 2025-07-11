@@ -18,6 +18,12 @@
 ### 2. Login Page
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Login%20%26%20Logout%20Feature/Login%20Page.png" width="70%">
 
+### 3. Dashboard
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Dashboard.png" width="70%">
+
+### 4. Kelola User ( Create, Read, Update, Delete, Search, Pagination )
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20User.png" width="70%">
+
 
 <h3>📄 License</h3>
 Project ini menggunakan [MIT license](https://opensource.org/licenses/MIT).
