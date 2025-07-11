@@ -3,6 +3,7 @@
 
 ## 🛠️ Teknologi yang Digunakan
 - Framework: Laravel 12 + Livewire 3
+- Library: Sweetalert2, Laravel excel, Laravel dompdf
 - Database: MySQL
 - Authentication: Laravel Built-in Authentication dengan Middleware
 - Frontend: Blade Templates
