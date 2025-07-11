@@ -13,7 +13,7 @@
 ## 🚀 Fitur Utama
 
 ### Home Page
-
+<img src="https://github.com/putrawebdev/LaDang_app/blob/f6d55f9a0e4c715e7b05e69c10727db9a69e8171/Kelola%20Gudang/Landing%20Page/Before%20Login.png">
 
 
 <h3>📄 License</h3>
