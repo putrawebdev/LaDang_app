@@ -41,6 +41,7 @@
 
 #### Excel result :
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/Excel%20result.png" width="80%">
+<hr>
 
 <h3>📄 License</h3>
 Project ini menggunakan [MIT license](https://opensource.org/licenses/MIT).
