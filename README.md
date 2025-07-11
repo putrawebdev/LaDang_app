@@ -1,48 +1,37 @@
-# Webseite Kelola Gudang
-# On Progress.... 95%
+# LaDang - Kelola Gudang
+#### LaDang - Memudahkan Pengelolaan Gudang 🏘️
+
+## 🛠️ Teknologi yang Digunakan
+- Framework: Laravel 12 + Livewire 3
+- Database: MySQL
+- Authentication: Laravel Built-in Authentication dengan Middleware
+- Frontend: Blade Templates
+- CSS Framework: Bootstrap + Tailwind
+- Server: Apache
+- PHP Version: 8.2+
+
+## 🚀 Fitur Utama
+
+### Home Page
 
 
-### Tech
-- Laravel 12
-- Livewire 3
-- Bootstrap 4
-- Tailwind
 
-### Library
-- Laravel Excel
-- Laravel dompdf
-- Sweetalert
+<h3>📄 License</h3>
+Project ini menggunakan [MIT license](https://opensource.org/licenses/MIT).
 
-### Fitur yang sudah ada saat ini
-#### A. Welcome Page
-#### 1. Login & Logout
-#### 2. Dashboard
-#### 3. Pembatasan akses fitur untuk admin
-- Role Admin hanya bisa mengakses Page Dashboard & Page Kelola Barang
+<h3>👨‍💻 Developer</h3>
+<ul>
+    <li>Nama: putrawebdev</li>
+    <li>Email: dakaagungputra@gmail.com</li>
+    <li>GitHub: github.com/putrawebdev</li>
+</ul>
 
-#### 4. Page Kelola User :
-- CRUD Data User
-- Search Data User
-- Pagination Data User
+<hr>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-#### 5. Page Kelola Kategori :
-- CRUD Data Kategori
-- Search Data Kategori
-- Pagination Data Kategori
-- Relasi Data Kategori dengan Data Barang
-
-#### 6. Page Kelola Barang :
-- CRUD Data Barang
-- Search Data Barang
-- Pagination Data Barang
-- Relasi Data Kategori dengan Data Barang
-
-#### 7. Expot Data Ke File Excel .xlsx
-- export data user
-- export data kategori
-- export data barang
-
-#### 7. Expot Data Ke File PDF .pdf
-- export data user
-- export data kategori
-- export data barang
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
