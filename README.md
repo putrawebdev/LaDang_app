@@ -36,6 +36,12 @@
 #### PDF result :
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF%20result.png" width="80%">
 
+### 5. Eksport Excel
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/Excel.png" width="80%">
+
+#### PDF result :
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/Excel%20result.png" width="80%">
+
 <h3>📄 License</h3>
 Project ini menggunakan [MIT license](https://opensource.org/licenses/MIT).
 
