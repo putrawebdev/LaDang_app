@@ -13,28 +13,28 @@
 ## 🚀 Fitur Utama
 
 ### 1. Home Page
-<img src="https://github.com/putrawebdev/LaDang_app/blob/f6d55f9a0e4c715e7b05e69c10727db9a69e8171/Kelola%20Gudang/Landing%20Page/Before%20Login.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/f6d55f9a0e4c715e7b05e69c10727db9a69e8171/Kelola%20Gudang/Landing%20Page/Before%20Login.png" width="80%">
 
 ### 2. Login Page
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Login%20%26%20Logout%20Feature/Login%20Page.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Login%20%26%20Logout%20Feature/Login%20Page.png" width="80%">
 
 ### 3. Dashboard
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Dashboard.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Dashboard.png" width="80%">
 
 ### 4. Kelola User ( Create, Read, Update, Delete, Search, Pagination, Export Excel & PDF )
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20User.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20User.png" width="80%">
 
 ### 4. Kelola Kategori ( Create, Read, Update, Delete, Search, Pagination, Export Excel & PDF )
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20Kategori.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20Kategori.png" width="80%">
 
 ### 4. Kelola Barang ( Create, Read, Update, Delete, Search, Pagination, Export Excel & PDF )
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20Barang.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20Barang.png" width="80%">
 
 ### 5. Eksport PDF
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF.png" width="80%">
 
 #### PDF result :
-<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF%20result.png" width="70%">
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF%20result.png" width="80%">
 
 <h3>📄 License</h3>
 Project ini menggunakan [MIT license](https://opensource.org/licenses/MIT).
