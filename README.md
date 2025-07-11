@@ -33,7 +33,7 @@
 ### 5. Eksport PDF
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF.png" width="70%">
 
-## PDF result :
+#### PDF result :
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/PDF%20result.png" width="70%">
 
 <h3>📄 License</h3>
