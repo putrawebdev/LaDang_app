@@ -39,7 +39,7 @@
 ### 5. Eksport Excel
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/Excel.png" width="80%">
 
-#### PDF result :
+#### Excel result :
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Export/Excel%20result.png" width="80%">
 
 <h3>📄 License</h3>
