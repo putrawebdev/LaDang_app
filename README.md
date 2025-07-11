@@ -21,8 +21,14 @@
 ### 3. Dashboard
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Dashboard.png" width="70%">
 
-### 4. Kelola User ( Create, Read, Update, Delete, Search, Pagination )
+### 4. Kelola User ( Create, Read, Update, Delete, Search, Pagination, Cetak Excel & PDF )
 <img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20User.png" width="70%">
+
+### 4. Kelola Kategori ( Create, Read, Update, Delete, Search, Pagination, Cetak Excel & PDF )
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20Kategori.png" width="70%">
+
+### 4. Kelola Barang ( Create, Read, Update, Delete, Search, Pagination, Cetak Excel & PDF )
+<img src="https://github.com/putrawebdev/LaDang_app/blob/main/Kelola%20Gudang/Page/Kelola%20Barang.png" width="70%">
 
 
 <h3>📄 License</h3>
